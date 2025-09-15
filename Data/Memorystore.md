@@ -34,6 +34,26 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 * 高可用性（HA）構成が可能で、プライマリノードに障害が発生した場合、自動的にレプリカノードにフェイルオーバーする
 * 
 
+#### [サービスティア](https://cloud.google.com/memorystore/docs/redis/redis-tiers?hl=ja#tier_architecture)
+
+* ベーシック ティア
+  * 1 個の Redis ノード
+  * エフェメラル キャッシュ
+
+![alt text](image.png)
+
+* スタンダード ティア（リードレプリカが無効）
+  * レプリケーションで高可用性を提供
+  * プライマリ ノードで障害が発生した場合はレプリカにフェイルオーバー
+
+![alt text](image-1.png)
+
+* スタンダード ティア（リードレプリカが有効）
+  * レプリケーションで高可用性を提供
+  * リードレプリカで分散型読み取りが可能
+
+![alt text](image-2.png)
+
 ## Memorystore for Valkey
 
 2025/9/15時点ではプレビュー機能のようだが、新しいタイプもあるらしい。
