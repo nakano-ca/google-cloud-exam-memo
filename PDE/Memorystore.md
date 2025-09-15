@@ -34,3 +34,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 * 高可用性（HA）構成が可能で、プライマリノードに障害が発生した場合、自動的にレプリカノードにフェイルオーバーする
 * 
 
+## Memorystore for Valkey
+
+2025/9/15時点ではプレビュー機能のようだが、新しいタイプもあるらしい。
+
+
+```
+（by Gemini）
+Memorystore for Valkeyは、オープンソースのValkeyをベースにした新しいサービスで、Redisのオープンソース版からフォーク（分岐）して誕生したという背景が最大の違いです。
+簡単に言うと、Valkeyはライセンス変更後のRedisに代わる、コミュニティ主導のオープンソース版Redisと位置づけられています。
+```
