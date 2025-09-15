@@ -1,13 +1,13 @@
-## Memorystore
+# Memorystore
 
 最終編集日： 2025/9/15
 
-### Memcached vs Redis
+## Memcached vs Redis
 
 **【結論】**
 Memcached は文字列のキャッシュに特化した高速な専門家、Redis は豊富なデータ型と永続化に対応した多機能なツールボックス（by Gemini）
 
-#### Memcached
+### Memcached
 
 ざっくりまとめるとこんな感じ。
 
@@ -16,17 +16,17 @@ Memcached は文字列のキャッシュに特化した高速な専門家、Redi
 * クラスタ内のノードの数は、最小 1 ノードから最大 20 ノードまでスケーリングできる
 * ノードのメモリ容量や vCPU 数をスケーリングすることはできない
 
-##### [可用性](https://cloud.google.com/memorystore/docs/memcached/scale-instances?hl=ja)
+#### [可用性](https://cloud.google.com/memorystore/docs/memcached/scale-instances?hl=ja)
 
 * スケールアウト時には、新しいノード IP アドレスを手動でアプリケーションに追加して、アプリケーションがそれらのノードにアクセスできるようにする必要がある
 * ただし、[Auto Discovery サービス](https://cloud.google.com/memorystore/docs/memcached/about-auto-discovery?hl=ja)を利用すればこの管理を自動化できる
 * スケールインすると、クラスタから削除されるノードに格納されているデータは失われる
 
-##### TBD
+#### TBD
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-#### Redis
+### Redis
 
 ざっくりまとめるとこんな感じ
 
