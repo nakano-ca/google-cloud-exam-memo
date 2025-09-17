@@ -42,3 +42,6 @@
     * それをできるのが UNNEST 関数と CROSS JOIN
       * UNNEST は配列を行に展開する関数
       * CROSS JOIN は総当り的に JOIN する結合方法。
+
+### ビュー vs マテリアライズドビュー
+
