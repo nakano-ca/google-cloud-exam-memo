@@ -1,6 +1,6 @@
 # Memorystore
 
-最終編集日： 2025/9/15
+最終編集日： 2025/9/17
 
 ## Memcached vs Redis
 
@@ -40,19 +40,19 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   * 1 個の Redis ノード
   * エフェメラル キャッシュ
 
-![alt text](image.png)
+![alt text](./image/image.png)
 
 * スタンダード ティア（リードレプリカが無効）
   * レプリケーションで高可用性を提供
   * プライマリ ノードで障害が発生した場合はレプリカにフェイルオーバー
 
-![alt text](image-1.png)
+![alt text](./image/image-1.png)
 
 * スタンダード ティア（リードレプリカが有効）
   * レプリケーションで高可用性を提供
   * リードレプリカで分散型読み取りが可能
 
-![alt text](image-2.png)
+![alt text](./image/image-2.png)
 
 ## Memorystore for Valkey
 
