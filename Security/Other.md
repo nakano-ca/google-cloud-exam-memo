@@ -11,10 +11,12 @@
   * SAや認証認可に関する制約
   * VPC等のネットワーク関連の制約
   * ロケーションなどリソース全体の制約
-    | ユースケース | 設定値 |
-    | :--- | :--- |
-    | SA キーの利用を禁止したい | `iam.disableServiceAccountKeyCreation` |
-    | デフォルト SA を無効化したい | `iam.automaticIamGrantsForDefaultServiceAccounts` |
-    | VPC Peering の接続を一部に制限したい | `constraints/compute.restrictVpcPeering` |
-    | 共有 VPC のサブネット払い出しを一部に制限したい | `constraints/compute.restrictSharedVpcSubnetworks`|
-    | リソースのロケーションを限定したい | `constraints/gcp.resourceLocations` |
+
+* ユースケースと設定値例
+  | ユースケース | 設定値 |
+  | :--- | :--- |
+  | SA キーの利用を禁止したい | `iam.disableServiceAccountKeyCreation` |
+  | デフォルト SA を無効化したい | `iam.automaticIamGrantsForDefaultServiceAccounts` |
+  | VPC Peering の接続を一部に制限したい | `constraints/compute.restrictVpcPeering` |
+  | 共有 VPC のサブネット払い出しを一部に制限したい | `constraints/compute.restrictSharedVpcSubnetworks`|
+  | リソースのロケーションを限定したい | `constraints/gcp.resourceLocations` |
