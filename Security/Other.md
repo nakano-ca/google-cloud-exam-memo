@@ -86,7 +86,7 @@
 【構成コンポーネント】
 ![alt text](./image/image3.png)
 
-* CA
+* CA（Certificate Authority）
   * Root CA：Root 認証局（必須）
   * Subordinate CA：中間認証局（任意）
 * CA Pool：CA を束ね、管理し、ローテーション等を行う CA の集合（必須）
