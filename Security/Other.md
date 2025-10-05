@@ -4,6 +4,12 @@
 
 ## IAP（Identity-Aware Proxy）
 
+* 従来の VPN に代わるクラウドネイティブなサービス
+* アプリケーションの入り口に”受付”を設置してくれるサービスのようなイメージ
+
+■ イメージ図（Cloud Run ver）
+![alt text](./image/iap-ingress-app.svg)
+
 ### 事前定義ロール
 
 * IAP-secured Web App Userロール
