@@ -33,9 +33,9 @@ Google Cloud のセキュリティシナリオ問題の多くは、「何を」�
     * データがマスキング（匿名化）されているか？
 
   * 主な関連サービス:
-  * **Sensitive Data Protection (SDP / 旧 DLP)**: データの中身をスキャンして機密情報を検出し、分類し、マスキングする
-  * **Cloud Key Management Service (KMS)**: データの暗号化に使用する鍵を管理する
-  * **VPC Service Controls**: 承認されたネットワーク境界の外へデータが持ち出されるのを防ぐ
+    * **Sensitive Data Protection (SDP / 旧 DLP)**: データの中身をスキャンして機密情報を検出し、分類し、マスキングする
+    * **Cloud Key Management Service (KMS)**: データの暗号化に使用する鍵を管理する
+    * **VPC Service Controls**: 承認されたネットワーク境界の外へデータが持ち出されるのを防ぐ
 
 > [!TIP]
 > 一例として GCS バケットで考えると、それぞれ以下のような機能の棲み分けとなる。
